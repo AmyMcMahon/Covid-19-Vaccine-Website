@@ -1,0 +1,82 @@
+a{
+    border-style:solid;
+    border-color:#8E9AAF;
+    border-width:5px;
+    padding:5px;
+    border-radius: 0px 0px 20px 20px;
+    background-color:#CBC0D3;
+    margin-right: 30px;
+    text-align: center;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+}
+.info{
+  color:#8894AA;
+  border-style:none;
+  padding:0px;
+  font-weight:bold;
+  background-color: #FEEAFA;
+  margin: 0px;
+}
+#info{
+  color:#8894AA;
+  border-style:none;
+  padding:0px;
+  font-weight:bold;
+  background-color: #EFD3D7;
+  margin: 0px;
+}
+table{
+  border: 1px solid #8894AA;
+  width: 75%;
+}
+td {
+  padding: 5px;
+}
+th{
+  background-color: #CBC0D3;
+  padding: 7px;
+  font-size: 20px;
+}
+body {
+  border-style:solid;
+  border-color: #4E043F;
+  border-width:5px;
+  padding:25px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #FEEAFA;
+  font-family: 'Montserrat', sans-serif;
+}
+iframe {
+  display: block; 
+  margin: auto;
+}
+h3{
+  border-style: solid;
+  border-color: #8894AA;
+  border-width: 5px;
+  background-color: #EFD3D7;
+  padding: 7px;
+  text-align: center;
+}
+h2{
+  border-style: solid;
+  border-color: #B7C0EE;
+  border-width: 5px;
+  background-color: #FEEAFA;
+  padding: 7px;
+  text-align: center;
+}
+input[type='number']{
+    width: 80px;
+} 
+.output{
+  color:black;
+  border-style:none;
+  padding:0px;
+  font-weight:bold;
+  background-color: #FEEAFA;
+  margin: 0px;
+}
