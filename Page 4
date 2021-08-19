@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaccine Registration</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <script src="script.js"></script>
+
+  <h1>Vaccine Registration</h1> <hr/>
+  <div style="text-align:center;">
+    <a href="index.html">Covid-19 Information</a>
+    <a href="page2.html">Vaccine Information</a>
+    <a href="page3.html">Vaccine Roll-out Schedule</a>
+  </div> <br/>
+  <h3> If you are aged 44 to 69 you can now register for your free Covid-19 vaccine below</<h3>
+  <h2> Information </h2>
+  <ul>
+    <li> If you do not know your Eircode find it <a class="info" href="https://finder.eircode.ie/#/"> here</a> </li>
+    <li> Your PPS Number can be found on payslips, public service cards, medical card or GP visit cardor letters from the Revenue Commissioners or the Department of Social Protection </li>
+    <li> If you are unable to find your PPS number you can contact the department of Social Protection at (01) 704 3000 </li>
+    <li> You are not able to choose which vaccine you will receive unless you have obtained permission from your GP due to a medical condition </li>
+    <li> If you are younger then 44 you cannot to register for the vaccine at this stage but you can refer to the <a href="page3.html" class="info">Vaccine Roll-out Schedule</a> to find out when you will be able to register </li>
+  </ul>
+  <h2> Register for the Vaccine:</h2>
+  <form>
+    <label>Enter Your Full Name:
+      <input type="text" id="name_in" placeholder="Enter Name"> <br/><br/>
+    </label>
+    <label>Enter Your Age:
+      <input type="number" id="age_in" placeholder="Enter Age"><br/><br/>
+    </label>
+    <label>Enter Your Address: (Seperate each line with a comma and a new line) <br/>
+      <textarea id = "address_in"> </textarea> <br/><br/>
+    </label> 
+    <label>Enter Your Email address:
+      <input type="email" id="email_in" placeholder="Enter Email Address"><br/><br/>
+    </label>
+    <label>Enter Your Phone Number:
+      <input type="tel" id="phone_in" placeholder="Enter Phone Number"><br/><br/>
+     </label>
+    <label>Enter Your Eircode: (see information of finding Eircode Number above)
+      <input type="text" id="eircode_in" placeholder="Enter Eircode"><br/><br/>
+    </label>
+    <label>Enter Your PPS Number: (see information of finding PPS Number above)
+      <input type="input" id="pps_in" placeholder="Enter PPS Number"><br/><br/>
+    </label>
+    <label>Enter any Vunerabilities you have:<br/>
+      <input type="checkbox" id="sixty">
+      <label><b>Over the age of 60</b></label><br/>
+      <input type="checkbox" id="learning">
+      <label><b>Learning Disorder</b></label><br/>
+      <input type="checkbox" id="cf">
+      <label for="cf"><b>Cystic fibrosis</b></label><br/>
+      <input type="checkbox" id="athsma">
+      <label for="athsma"><b>Severe athsma</b></label><br/>
+      <input type="checkbox" id="bmi">
+      <label for="bmi"><b>BMI over 35</b></label><br/>
+      <input type="checkbox" id="diabetes">
+      <label for="diabetes"><b>Diabetes</b></label><br/>
+      <input type="checkbox" id="parkinsons">
+      <label for="parkinsons"><b>Parkinsons or Cerbal Palsy</b></label><br/>
+      <input type="checkbox" id="heart">
+      <label for="heart"><b>Chronic heart or kidney disease</b></label><br/>
+      <input type="checkbox" id="cancer">
+      <label for="cancer"><b>Cancer</b></label><br/>
+      <input type="checkbox" id="none">
+      <label for="none"><b>None</b></label><br/></br>
+    </label>
+    <label>Do you suffer from a Mental Disorder (if n/a select none) :</label>
+      <select>
+        <option value="" disabled selected>Select your option</option>
+        <option value="Schizophrenia" id="schizophrenia">Schizophrenia</option>
+        <option value="Bipolar disorder" id="bipolar">Bipolar disorder</option>
+        <option value="Severe depression" id="depression">Severe depression</option>
+        <option value="APECED" id="apeced">APECED</option>
+        <option value="other" id="other">Other</option>
+        <option value="none" id="none">None</other>
+      </select> <br/><br/>
+    <button type="button" onclick="display_details()"">
+      Submit
+    </button><br/><br/>
+  </form>
+
+<h2>Check Your Details Below</h2>
+  <p><a class="output" id="age_out"></a>  </p>
+  <p>Name: <a class="output" id="name_out"></a>  </p>
+  <p>Age: <a class="output" id="ageTwo_out"></a>  </p>
+  <p>Address: <a class="output" id="address_out"></a>  </p>
+  <p>Email: <a class="output" id="email_out"></a>  </p>
+  <p>Phone: <a class="output" id="phone_out"></a>  </p>
+  <p>Eircode: <a class="output" id="eircode_out"></a>  </p>
+  <p>PPS: <a class="output" id="pps_out"></a>  </p>
+
+<h4> If the information is correct press the submit button below </h4>
+<button onClick="submit_form()";>
+  Submit Data
+</button>
+
+<h2>Check which Vaccine is most suited for you below </h2>
+<label> Enter your gender (Male/Female):  
+  <input type="text" id="gender_in" placeholder="Male/Female">
+</label> <br/>
+<label>Enter Your Age:
+      <input type="number" id="ageTwo_in" placeholder="Enter Age"><br/><br/>
+</label>
+<button type="button" onclick="eligible()">
+  Submit
+</button>
+
+<p>You are eligible for: <a class="output" id="vac_out"></a>   </p>
+</body>
+</html>
