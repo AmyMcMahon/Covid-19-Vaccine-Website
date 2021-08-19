@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaccine Roll-out Schedule</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Vaccine Roll-out Schedule</h1> <hr/>
+  <div style="text-align:center;">
+    <a href="index.html">Covid-19 Information</a>
+    <a href="page2.html">Vaccine Information</a>
+    <a href="page4.html">Register for the Vaccine</a>
+  </div> <br/>
+  <h3> If you are aged 44 to 69 you can now register for your free Covid-19 vaccine <a id="info" href="page4.html">here</a></h3>
+  <p> The Covid-19 vaccine is currently being rolled out in Ireland. The vaccines are being administered as soon as they arrive in Ireland and the at-risk groups are being vaccinated first. </p>
+  <h2> What Groups can Register for the Vaccine?</h2>
+  <ul>
+    <li>Frontline health-care workers</li>
+    <li>People aged 44 and above</li>
+    <li>People aged 16 to 44 who are in the high-risk group</li>
+    <li>Pregnant women</li>
+  </ul>
+  <h2> Current Registration Schedule for People aged 40 to 44: </h2>
+  <ol>
+    <li>Aged <b>44</b> - register on Wednesday 2 June, or any time after</li>
+    <li>Aged <b>43</b> - register on Thursday 3 June, or any time after</li>
+    <li>Aged <b>42</b> - register on Friday 4 June, or any time after</li>
+    <li>Aged <b>41</b> - register on Saturday 5 June, or any time after</li>
+    <li>Aged <b>40</b> - register on Sunday 6 June, or any time after</li>
+  </ol>
+  <h2> At Risk Groups: </h2>
+  <table border>
+    <tr>
+      <th>Very High Risk</th>
+      <th>High Risk</th>
+    </tr>
+    <tr>
+      <td>Over 70s</td>
+      <td>Over 60s</td>
+    </tr>
+    <tr>
+      <td>People with Down Syndrom</td>
+      <td>People with a learning disability other than Down Syndrom</td>
+    </tr>
+    <tr>
+      <td>Cancer patients being treated with chemotherapy</td>
+      <td>People being treated for cancer but are not high risk</td>
+    </tr>
+    <tr>
+      <td>People with lung, head and neck or oesophageal cancer</td>
+      <td>People who have been treated in the past 5 years for blood or bone marrow cancer</td>
+    </tr>
+    <tr>
+      <td>People on dialysis</td>
+      <td>People with chronic kidney disease</td>
+    </tr>
+    <tr>
+      <td>People with sever cystic fibrosis</td>
+      <td>People with chronic heart disease</td>
+    </tr>
+    <tr>
+      <td>People with sever asthma</td>
+      <td>People with a condition such Parkinsons or cerbal Palsy</td>
+    </tr>
+    <tr>
+      <td>People who have had or are waiting for an organ transplant</td>
+      <td>People with a sever mental disorder such as schizophrenia</td>
+    </tr>
+    <tr>
+      <td>Obese people with a BMI above 40</td>
+      <td>People with a BMI of between 35 and 40</td>
+    </tr>
+    <tr>
+      <td>People with uncontrolable diabetes</td>
+      <td>People with diabetes</td>
+    </tr>
+  </table>
+</body>
+</html>
+  
