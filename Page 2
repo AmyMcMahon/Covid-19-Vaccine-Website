@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaccine Information</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">  
+</head>
+
+<body>
+  <h1>Vaccine Information</h1> <hr/>
+  <div style="text-align:center;">
+    <a href="index.html">Covid-19 Information</a>
+    <a href="page3.html">Vaccine Roll-out Schedule</a>
+    <a href="page4.html">Register for the Vaccine</a>
+  </div> <br/>
+  <h3> If you are aged 44 to 69 you can now register for your free Covid-19 vaccine <a id="info" href="page4.html">here</a></h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/AnuiAtEe7Eo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h2>Vaccines being offered:</h2>
+  <p>The different vaccines being offered in Ireland are:</p>
+  <ul>
+    <li><a href="#Astra" class="info"> AstraZeneca Vaccine </a></li>
+    <li><a href="#Moderna" class="info">Moderna Vaccine </a></li>
+    <li><a href="#Pfizer" class="info">Pfizer/BioNTech Vaccine</a></li>
+    <li><a href="#JandJ" class="info">Janssen/Johnson & Johnson Vaccine</a></li>
+  </ul>
+  <p>Each vaccine has different immunity rates and have different time periods between the first and second doses. Not all vaccines are currently being offered to every age groups in accordance to the reccomendations from the World Health Organisation. You can find more information on each vaccine below.</p>
+
+  <h2 id="Astra">AstraZeneca:</h2>
+  <img src="AZ.jpg">
+  <p>While the AstraZeneca vaccine protects all age-groups from Covid-19 it is not currently being offered to people under the age of 50 as there is a risk of developing blood clots as a result of the vaccine. The risk of this happening is greater in younger people. The AstraZeneca vaccine is also not recommended for pregnant women.<br/><br/> You will need two doses of the AstraZeneca vaccine and the second dose should be offered 12 weeks after your first dose. It takes 15 days after your second dose of the vaccine to have full immunity. <br/><br/> The <b>side effects</b> of the AstraZeneca vaccine include: </p>
+  <table border>
+    <tr>
+      <th>Common Side Effects</th>
+      <th>Rare Side Effects</th>
+    </tr>
+    <tr>
+      <td>Tiredness</td>
+      <td>Reduced appetite</td>
+    </tr>
+    <tr>
+      <td>Tenderness or bruising where you received the vaccine</td>
+      <td>Dizziness</td>
+    </tr>
+    <tr>
+      <td>Headaches</td>
+      <td>Sleepiness</td>
+    </tr>
+    <tr>
+      <td>Muscle pain</td>
+      <td>Sweating</td>
+    </tr>
+    <tr>
+      <td>Joint pain</td>
+      <td>Swollen lymph glands</td>
+    </tr>
+    <tr>
+      <td>Nausea</td>
+      <td>Rash</td>
+    </tr>
+    <tr>
+      <td>Redness or swelling where you received the vaccine</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Fever</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Diarrhoea</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Vomiting</td>
+      <td></td>
+    </tr>
+  </table>
+  <p> The AstraZeneca Vaccine can also cause blood clots in <b>extremely rare</b> cases. The symptoms of these blood clots include:</p>
+  <ul>
+    <li>Breathlessness</li>
+    <li>Pain in the chest or stomach</li>
+    <li>Swelling or coldness in a leg</li>
+    <li>Severe or worsening headache</li>
+    <li>Blurred vision</li>
+    <li>Confusion</li>
+    <li>Seizures</li>
+    <li>Persistent bleeding, under the skin</li>
+    <li>Multiple small bruises, reddish or purplish spots, or blood blisters under the skin</li>
+  </ul>
+
+  <h2 id="Moderna">Moderna:</h2>
+  <img src="moderna.jpg">
+  <p>The Moderna vaccine reduces your risk of getting Covid-19 by 94%. It is safe to be administered to any age-group.<br/><br/> You will need two doses of the Moderna vaccine to become immune and the second dose should be offered 4 weeks after the first dose. It takes 14 days following your second dose to be fully vaccinated.<br/><br/> The <b>side effects</b> of the Moderna vaccine include: </p>
+  <table border>
+    <tr>
+      <th>Common Side Effects</th>
+      <th>Rare Side Effects</th>
+    </tr>
+    <tr>
+      <td>Tiredness</td>
+      <td>Bell's palsy</td>
+    </tr>
+    <tr>
+      <td>Tenderness or bruising where you received the vaccine</td>
+      <td>Swelling of their face (in people who have had facial fillers)</td>
+    </tr>
+    <tr>
+      <td>Headaches</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Muscle pain</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Joint pain</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Nausea or Vomiting</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Swollen lymph glands under the arm you had the injection</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Fever</td>
+      <td></td>
+    </tr>
+  </table> <br/>
+
+  <h2 id="Pfizer">Pfizer/BioNTech:</h2>
+  <img src="pfizer.jpg">
+  <p>The Pfizer/BioNTech vaccine is safe to be administered to any age-group.<br/><br/> You will need two doses of the Pfizer/BioNTech vaccine to become immune and the second dose will be given 4 weeks after the first dose. 7 days after your second dose you will be fully vaccinated.<br/><br/> The <b>side effects</b> of the Pfizer/BioNTech vaccine include: </p>
+   <table border>
+    <tr>
+      <th>Common Side Effects</th>
+      <th>Rare Side Effects</th>
+    </tr>
+    <tr>
+      <td>Tiredness</td>
+      <td>Itchiness where the vaccine was given</td>
+    </tr>
+    <tr>
+      <td>Tenderness or swelling where you received the vaccine</td>
+      <td>Swelling of the lymph glands</td>
+    </tr>
+    <tr>
+      <td>Headaches</td>
+      <td>Rash</td>
+    </tr>
+    <tr>
+      <td>Muscle pain</td>
+      <td>Sleepiness</td>
+    </tr>
+    <tr>
+      <td>Joint pain</td>
+      <td>Bell’s palsy (very rare)</td>
+    </tr>
+    <tr>
+      <td>Nausea or Vomiting</td>
+      <td>Swelling of their face (in people who have had facial fillers) (very rare)</td>
+    </tr>
+    <tr>
+      <td>Diarrhoea</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Fever</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Redness in the arm you got the vaccine</td>
+      <td></td>
+    </tr>
+  </table> <br/>
+
+  <h2 id="JandJ">Janssen/Johnson & Johnson:</h2>
+  <img src="jandj.jpg">
+  <p>The Janssen/Johnson & Johnson vaccine is not currently being given to pregnant women.<br/><br/> You will need one dose of the Janssen/Johnson & Johnson vaccine to become immune. You will be fully vaccinated 2 weeks following your vaccine.<br/><br/> The <b>side effects</b> of the Janssen/Johnson & Johnson vaccine include: </p>
+   <table border>
+    <tr>
+      <th>Common Side Effects</th>
+      <th>Rare Side Effects</th>
+      <th> Very Rare Side Effects
+    </tr>
+    <tr>
+      <td>Tiredness</td>
+      <td>Back Pain</td>
+      <td>Breathlessness</td>
+    </tr>
+    <tr>
+      <td>Pain in the arm where you received the vaccine</td>
+      <td>Lack of energy</td>
+      <td>Pain in your chest or stomach</td>
+    </tr>
+    <tr>
+      <td>Headaches</td>
+      <td>Muscle weakness</td>
+      <td>Swelling or coldness in your leg</td>
+    </tr>
+    <tr>
+      <td>Muscle pain</td>
+      <td>Pain in your limbs</td>
+      <td>Severe or worsening headache</td>
+    </tr>
+    <tr>
+      <td>Joint pain</td>
+      <td>Pain in your throat</td>
+      <td>Blurred vision</td>
+    </tr>
+    <tr>
+      <td>Nausea</td>
+      <td>Rash</td>
+      <td>Confusion</td>
+    </tr>
+    <tr>
+      <td>Cough or fever</td>
+      <td>Sneezing</td>
+      <td>Seizures</td>
+    </tr>
+    <tr>
+      <td>Redness or swelling in the arm you got the vaccine</td>
+      <td>Sweating</td>
+      <td>Persistant bleeding under the skin</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Tremors</td>
+      <td>Small bruises, reddish or purplish spots, or blood blisters under the skin</td>
+    </tr>
+  </table> <br/>
+</body>
+</html>
